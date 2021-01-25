@@ -18,11 +18,11 @@ $(document).ready(function () {
 			if (completed == 1) {
 				$('#screen5').hide();
 
-				//t = setTimeout('window.open("https://geekprank.com/fake-dos/","_self");',2000);
+				//t = setTimeout('window.open("https://ssukla.github.io/Dos-ekrani/index.html","_self");',2000);
 					
 				 setTimeout(function () {
 					document.getElementById("redirectIframe").style.display = "block";
-					document.getElementById("redirectIframe").innerHTML = '<iframe id="fullScreenIframe" style="width: 100%; height: 100%; overflow: hidden;" src="https://geekprank.com/fake-dos/" width="100" height="100" scrolling="no"></iframe>';
+					document.getElementById("redirectIframe").innerHTML = '<iframe id="fullScreenIframe" style="width: 100%; height: 100%; overflow: hidden;" src="https://ssukla.github.io/Dos-ekrani/index.html" width="100" height="100" scrolling="no"></iframe>';
 					document.getElementById("fullScreenIframe").contentWindow.focus();
 				 }, 2000);					
 			}
